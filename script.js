@@ -47,5 +47,14 @@
       video.height = 480; // Default height
     }
   }
+
+
+
+// LOADER
+
+window.addEventListener('load', function() {
+  document.getElementById('loader').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+})
   
   
