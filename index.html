@@ -39,9 +39,9 @@
 
 
   <section id="profile">
-    <div class="section__pic-container">
-      <img src="./assets/profile.png" alt="Rohan Naghera Profile picture">
-    </div>
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Rohan Naghera Profile picture">
+      </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <p class="title">Rohan Naghera</p>
@@ -62,9 +62,9 @@
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./assets/about-pic.jpeg" alt="Profile Picture" class="about-pic">
-      </div>
+        <div class="card section__pic-container">
+          <img src="./assets/about-pic.jpeg" alt="Profile Picture" class="about-pic">
+        </div>
       <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -248,7 +248,24 @@
         </ul>
       </div>
     </nav>
-    <p>Copyright &#169; 2024 Rohan Naghera.  All Rights Reserved.</p>
+    <!-- <p id="video-container">Copyright &#169; 2024 Rohan Naghera.  All Rights Reserved.</p>
+      <video id="myVideo" width="320" height="240" controls style="display: none;">
+      <source src="./assets/rick-roll.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> -->
+
+
+      <a href="#" onclick="openModal()">Copyright &#169; 2024 Rohan Naghera. All Rights Reserved.</a>
+      <div id="videoModal" style="display:none;">
+        <div id="videoModalContent">
+          <span id="videoModalClose">&times;</span>
+          <video id="myVideo" width="720" height="480" controls>
+            <source src="./assets/rick-roll.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
   </footer>
 
   <script src="script.js"></script>

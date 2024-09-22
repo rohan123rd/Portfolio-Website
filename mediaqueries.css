@@ -56,7 +56,7 @@
   }
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   .about-containers, .contact-info-upper-container, .btn-container {
     flex-wrap: wrap;
@@ -91,5 +91,14 @@
   }
   .text-container{
     text-align: justify;
+  }
+  #myVideo {
+    width: 320px;
+    height: 640px;
+  }
+  footer a {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
   }
 }
