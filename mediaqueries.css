@@ -40,6 +40,18 @@
   .about-containers {
     margin-top: 0;
   }
+  .flip-container {
+    width: 280px;
+    height: 280px;
+  }
+  .flipper {
+    width: 280px;
+    height: 280px;
+  }
+  .back-content img {
+    width: 280px;
+    height: 280px;
+  }
 }
 
 
@@ -100,5 +112,17 @@
     display: flex;
     justify-content: center;
     font-size: 13px;
+  }
+  .flip-container {
+    width: 200px;
+    height: 200px;
+  }
+  .flipper {
+    width: 200px;
+    height: 200px;
+  }
+  .back-content img {
+    width: 200px;
+    height: 200px;
   }
 }
