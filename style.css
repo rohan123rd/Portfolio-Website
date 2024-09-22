@@ -97,7 +97,9 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: #fff;
+  border-radius: 10px;
+  opacity: .6;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -565,4 +567,21 @@ footer a:hover {
 .back-content img {
   width: 400px;
   height: 400px;
+}
+
+/* CLOCK */
+
+#clock {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  position: fixed;
+  top: 20px;
+  font-size: 1.25rem;
+  color: black;
+  border-radius: 4px;
+  background: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

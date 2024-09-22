@@ -52,6 +52,9 @@
     width: 280px;
     height: 280px;
   }
+  #clock {
+    display: none;
+  }
 }
 
 
@@ -124,5 +127,8 @@
   .back-content img {
     width: 200px;
     height: 200px;
+  }
+  #clock {
+    display: none;
   }
 }

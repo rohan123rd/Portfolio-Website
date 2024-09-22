@@ -55,3 +55,34 @@ document.getElementById('loader').style.display = 'none';
 document.getElementById('content').style.display = 'block';
 })
 
+
+// CLOCK
+
+function updateClock() {
+  const now = new Date();
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const seconds = String(now.getSeconds()).padStart(2, '0');
+  document.getElementById('clock').innerText = `${hours}:${minutes}:${seconds}`;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+
+
+// HOVERING OVER A ELEMENT CHANGES THE WHOLE BODY COLOR
+
+// const hoverBox = document.querySelector('.socials-linkedin');
+
+// hoverBox.addEventListener('mouseenter', (e) => {
+//   const rect = e.target.getBoundingClientRect();
+//   const xPos = rect.left + rect.width / 2;
+//   const yPos = rect.top + rect.height / 2;
+
+//   document.body.style.background = `radial-gradient(circle at ${xPos}px ${yPos}px, lightblue 10%, white 100%)`;
+//   document.body.style.backgroundSize = '150% 150%';
+// });
+
+// hoverBox.addEventListener('mouseleave', () => {
+//   document.body.style.backgroundSize = '0';
+// });
