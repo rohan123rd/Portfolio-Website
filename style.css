@@ -160,6 +160,7 @@ section {
 
 .section-container {
   display: flex;
+  margin-top: 2rem;
 }
 
 /* PROFILE SECTION */
