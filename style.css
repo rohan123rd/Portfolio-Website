@@ -10,10 +10,15 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  cursor: url('./assets/cursor.png'), auto;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.a .button {
+  cursor: url('./assets/icons8-cursor-20.png'), pointer;
 }
 
 p {
@@ -48,6 +53,7 @@ a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
+  cursor: url('./assets/icons8-cursor-20.png'), pointer;
 }
 
 a:hover {
@@ -59,10 +65,6 @@ a:hover {
 
 .logo {
   font-size: 2rem;
-}
-
-.logo:hover {
-  cursor: default;
 }
 
 /* HAMBURGER MENU */
@@ -114,6 +116,7 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+  cursor: url('./assets/icons8-cursor-20.png'), pointer;
 }
 
 .menu-links li {
@@ -212,7 +215,7 @@ section {
 /* ICONS */
 
 .icon {
-  cursor: pointer;
+  /* cursor: url('./assets/icons8-cursor-20.png'), pointer; */
   height: 2rem;
 }
 
@@ -230,6 +233,7 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  cursor: url('./assets/icons8-cursor-20.png'), pointer;
 }
 
 .btn-color-1, .btn-color-2 {
@@ -237,7 +241,7 @@ section {
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
-  cursor: pointer;
+  cursor: url('./assets/icons8-cursor-20.png'), pointer;
 }
 
 .btn-color-1, .btn-color-2:hover {
@@ -247,6 +251,7 @@ section {
 
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
+  cursor: url('./assets/icons8-cursor-20-white.png'), pointer;
 }
 
 .btn-color-2 {
@@ -255,6 +260,7 @@ section {
 
 .btn-color-2:hover {
   border: rgb(255, 255, 255) .1rem solid;
+  cursor: url('./assets/icons8-cursor-20-white.png'), pointer;
 }
 
 .btn-container {
@@ -347,7 +353,7 @@ article {
 }
 
 article .icon {
-  cursor: default;
+  cursor: url('./assets/cursor.png'), pointer;
 }
 
 /* PROJECTS SECTION */
@@ -437,10 +443,12 @@ article .icon {
 
 .contact-icon {
   cursor: default;
+  cursor: url('./assets/cursor.png'), pointer;
 }
 
 .email-icon {
   height: 2.5rem;
+  cursor: url('./assets/cursor.png'), pointer;
 }
 
 /* FOOTER SECTION */
@@ -457,7 +465,7 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
-  cursor: default;
+  cursor: url('./assets/icons8-cursor-20.png'), pointer;
   color: rgb(53, 53, 53);
 }
 
@@ -472,6 +480,7 @@ footer a:hover {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 9999;
+  cursor: url('./assets/cursor.png'), pointer;
 }
 
 #videoModalContent {
@@ -479,6 +488,7 @@ footer a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: url('./assets/cursor.png'), pointer;
 }
 
 #videoModalClose {
@@ -487,7 +497,7 @@ footer a:hover {
   right: 20px;
   color: #fff;
   font-size: 24px;
-  cursor: pointer;
+  cursor: url('./assets/icons8-cursor-20.png'), pointer;
 }
 
 
@@ -586,3 +596,7 @@ footer a:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+
+
+/* CUSTOM CURSOR */

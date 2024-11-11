@@ -86,3 +86,7 @@ updateClock();
 // hoverBox.addEventListener('mouseleave', () => {
 //   document.body.style.backgroundSize = '0';
 // });
+
+
+
+// CUSTOM CURSOR
